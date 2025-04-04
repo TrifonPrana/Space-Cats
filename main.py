@@ -22,6 +22,8 @@ size = (800,600)
 screen = pg.display.set_mode(size)
 pg.display.set_caption("Космические коты")
 
+icon = pg.image.load("images/cat_starship.png")
+pg.display.set_icon(icon)
 
 #Объекты спрайтов
 captain = Captain()
